@@ -3,6 +3,7 @@ CONCEPT
 SafeRandom is a protocol for generating publicly verifiable random numbers. Our algorithm can be used to run secure, fair and transparent raffles and giveaways, in the sense that the Organizer cannot manipulate nor can deny the outcome.
 
 Awards:
+
 3rd position in the 2017 National (Greek) Innovation Contest organised by National Bank of Greece.
 
 4th position in the 1st Fintech CrowdHackathon, organised by National Bank of Greece and CrowdPolicy.
