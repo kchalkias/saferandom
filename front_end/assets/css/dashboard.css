@@ -1,0 +1,98 @@
+.outerwrapper{
+	width: 100%;
+	text-align: center;
+}
+
+.outerwrapper > .wrapper,
+.outerwrapper > .editcontestwrapper{
+	display: inline-block;
+	min-width: 55%;
+	padding: 1em;
+	position: relative;
+}
+
+.editcontestwrapper{
+	background-color: #FFF;
+	box-shadow: 0px 0px 12px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px 0px 12px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 0px 0px 12px rgba(0,0,0,0.4);
+    border-radius: 0.4em;	
+    text-align: left;
+    padding: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+
+.searchbarwrapper > input{
+	width: 100%;
+	border: none;
+	padding: 0.6em;
+	box-shadow: 0px 0px 12px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px 0px 12px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 0px 0px 12px rgba(0,0,0,0.4);
+}
+
+.circlecontrol{
+	border-radius: 100%;
+	-moz-border-radius: 100%;
+	-webkit-border-radius: 100%;
+	background-color: #162748;
+	line-height: 1.7em;
+	font-size: 1.7em;
+	width: 1.7em;
+	height: 1.7em;
+	color: #FFF;
+	box-shadow: 0px 0px 6px rgba(0,0,0,0.9);
+	-moz-box-shadow: 0px 0px 6px rgba(0,0,0,0.9);
+	-webkit-box-shadow: 0px 0px 6px rgba(0,0,0,0.9);
+	cursor: pointer;	
+	margin-top: 0.3em;
+}
+
+.circlecontrol.edit{
+	background-image: url(/assets/img/edit_ic.png);
+	background-size: 60%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.controls{
+	position: fixed;
+	bottom: 2em;
+	left: -1.7em;
+}
+
+.contesttab{
+    background: #FFF;
+    border-radius: 0.4em;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+    margin-top: 0.5em;
+    padding: 1em;
+    text-align: left;
+    cursor: pointer;
+}
+
+.contesttab.disabled{
+	opacity: 0.5;
+}
+
+.contesttab:last-child{
+	margin-bottom:6em;
+}
+
+.contesttab h3{
+	display: inline-block;
+}
+
+.editbtns{
+	padding: 0.4em 2em;
+}
+
+.nocontestsmsg{
+	color: #bababa;
+	margin: 6em 0em;
+}
+
+textarea{
+	font-size: 0.9em;
+}

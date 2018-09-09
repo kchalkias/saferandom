@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>SafeRandom</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&subset=latin,greek"><link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href="/assets/css/app.css" rel="stylesheet">
+    <link href="/assets/css/home.css" rel="stylesheet">
+    <link href="/assets/css/register.css" rel="stylesheet">
+    <link href="/assets/css/srheader.css" rel="stylesheet">
+    <link href="/assets/css/dashboard.css" rel="stylesheet">
+    <link href="/assets/css/searchforcontest.css" rel="stylesheet">
+</head>
+<body>
+<sr-app>Loading...</sr-app>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/es6-shim/es6-shim.min.js"></script>
+<script src="node_modules/systemjs/dist/system-polyfills.js"></script>
+<script src="node_modules/angular2/es6/dev/src/testing/shims_for_IE.js"></script>
+<script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
+<script src="node_modules/systemjs/dist/system.src.js"></script>
+<script src="node_modules/angular2/bundles/angular2.dev.js"></script>
+<script src="node_modules/angular2/bundles/router.dev.js"></script>
+<script src="node_modules/angular2/bundles/http.dev.js"></script>
+<script src="node_modules/rxjs/bundles/Rx.js"></script>
+<script>
+    System.config({
+        packages: {
+            app: {
+                format: 'register',
+                defaultExtension: 'js'
+            }
+        }
+    });
+    System.import('app/bin/main')
+            .then(null, console.error.bind(console));
+</script>
+</body>
+</html>

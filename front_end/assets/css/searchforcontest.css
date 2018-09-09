@@ -1,0 +1,35 @@
+.table{
+	display: table;
+	font-size: 1em;
+	width: 100%;
+}
+
+.row{
+	display: table-row;
+}
+.row:first-child{
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+.cell{
+	padding: 0.6em;
+	display: table-cell;
+}
+
+.row.win{
+	background-color: rebeccapurple;
+	color: #FFF;
+}
+
+.cell:first-child{
+	width: 20%;
+}
+
+.cell:nth-child(2){
+	width: 20%;
+}
+
+.cell:nth-child(3){
+	width: 60%;
+}

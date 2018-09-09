@@ -1,0 +1,15 @@
+.sr-header-cmp > div{
+	background-color: #162748;
+}
+
+.sr-header-cmp .logo{
+	width: 10em;
+	padding: 1.5em 1.5em 0em 1.5em;
+	cursor: pointer;
+}
+
+.sr-header-cmp span{
+	color: #FFF;
+	display: inline-block;
+	padding: 0.5em 0em 1.5em 1.5em;
+}

@@ -1,0 +1,5 @@
+.idea/
+/**/node_modules/
+/front_end/app/bin/
+/front_end/typings/
+/front_end/npm-debug.log

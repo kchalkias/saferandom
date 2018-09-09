@@ -1,0 +1,151 @@
+.register-cmp .wrapper{
+	display: table;
+	margin-left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	padding: 1em;
+	background-color: #162748;
+	color: #FFF;
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.7);
+	-moz-box-shadow: 0px 0px 15px rgba(0,0,0,0.7);
+	-webkit-box-shadow: 0px 0px 15px rgba(0,0,0,0.7);
+}
+
+.register-cmp form{
+	margin: 0px;
+}
+
+.register-cmp .wrapper input{
+	margin: 0.3em 0em;
+	width: 15em;
+}
+
+.register-cmp .wrapper .clickbutton{
+	margin-top: 1em;
+	padding: 0.5em 0em;
+	width: 100%;
+	color: #FFF;
+	text-align: center;
+	font-size: 1.1em;
+}
+
+
+.state{
+	background-image: url(/assets/img/state_sprite.png);
+	background-repeat: no-repeat;
+	background-size: auto 170px;
+	height: 57px;
+	width: 100%;
+}
+
+.register-cmp .plan h2{
+	color: #FFF;
+}
+
+.state.position2{
+	background-position: 0px -57px;
+}
+
+.state.position3{
+	background-position: 0px -115px;
+}
+
+.line{
+	background-color: #162748;
+	height: 1px;
+	width: 100%;
+}
+
+.plans{
+	text-align: center;
+	padding-top: 2em; 
+}
+
+.plan{	
+	background-color: #162748;
+	border-radius: 1em;
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	display: inline-block;
+	height: 250px;
+	width: 220px;
+	text-align: center;
+	padding: 1em;
+	margin-right: 1em;
+	margin-bottom: 1em;
+	position: relative;
+}
+
+.plan .clickbutton{
+	padding: 0.7em 0em;
+	bottom: 0em;
+	position: absolute;
+	left: 0;
+	right: 0;
+	box-sizing: content-box;
+	margin: 1em;
+}
+
+.paymentform{
+	display: inline-block;
+	text-align: left;
+}
+
+.paymentform .clickbutton{
+	width: 100%;
+	padding: 0.6em 0em;
+	margin-top: 1em;
+}
+
+.ordercompleted{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+}
+
+.ordercompleted .clickbutton{
+	font-weight: bold;
+	color: #FFF;
+}
+
+
+h3{
+	color: #162647;
+	margin: 0.5em 0em 0em 0em;
+}
+
+input, select{
+	border: 2px solid #162647;
+	min-width: 13em;
+}
+
+@media only screen 
+  and (max-width: 480px) {
+
+  .state{
+  	zoom: 90%;
+  }
+}
+
+@media only screen 
+  and (max-width: 430px) {
+
+  .state{
+  	zoom: 70%;
+  }
+}
+
+@media only screen 
+  and (max-width: 320px) {
+
+  .state{
+  	zoom: 60%;
+  }
+}

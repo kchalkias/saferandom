@@ -1,0 +1,48 @@
+
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'PT Sans', sans-serif;
+	background-color: #e3e3e3;
+}
+
+h2, h3{
+	font-size: 1.2em;
+	padding: 0;
+	margin: 0;
+}
+
+h3{
+	font-size: 1em;
+	color: #162647;
+}
+
+
+.clickbutton{
+	display: inline-block;
+	padding: 1.2em 2em;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	cursor: pointer;
+	text-align: center;
+	color: #FFF;
+}
+
+.clickbutton.green{
+	background-color: #679239;
+}
+
+.clickbutton.blue{
+	background-color: #162748;
+}
+
+input, select{
+	padding: 0.4em;
+	font-size: 1.1em;
+	border-radius: 0.4em;
+	border:none;
+	-webkit-border-radius: 0.4em;
+	-moz-border-radius: 0.4em;
+}
