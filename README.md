@@ -15,12 +15,16 @@ This data set work as a “seed” to a well-defined public function, which guar
 
 Some examples of public data sets that can be used include:
 
-The aggregated closing prices (to the 2nd decimal digit) of the stocks that comprise an index.
-Weather conditions (temperature, wind, humidity) at a certain time in the major world capitals / cities.
-Official flight landing times at biggest airports.
-The next bitcoin block; no one can predict the next block in the chain.
-Let’s assume we organize a raffle where the closing prices at June 29 of each of the NASDAQ-100 components are used as input seed. Then, on that day-time, anyone can run the algorithm by feeding it with the closing prices (publicly available on the web) and produce the raffle’s outcome. Everyone runs the same algorithm with the same input, so the output is the same for everyone; thus transparent, verified and undeniable.
+The next bitcoin block; no one can predict the next block in the chain (entropy ~2^65, depending on current difficulty).
 
+The aggregated closing prices (to the 2nd decimal digit) of the stocks that comprise an index.
+
+Weather conditions (temperature, wind, humidity) at a certain time in the major world capitals / cities.
+
+Official flight landing times at biggest airports.
+
+EXAMPLE:
+Let’s assume we organize a raffle where the closing prices at June 29 of each of the NASDAQ-100 components are used as input seed. Then, on that day-time, anyone can run the algorithm by feeding it with the closing prices (publicly available on the web) and produce the raffle’s outcome. Everyone runs the same algorithm with the same input, so the output is the same for everyone; thus transparent, verified and undeniable.
 
 
 VERIFIED LIST OF PARTICIPANTS
